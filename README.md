@@ -4,7 +4,7 @@
 
 ![Screenshot](images/screen.png)
 
-### [demo]()
+### [demo](https://bfc0.github.io/video_player/)
 
 для запуска локально:
 
