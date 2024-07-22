@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+.player {
+    width: 800px;
+    height: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+}
+
+.control-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1.1em;
+    width: 2.5em;
+
+}
+
+.player-controls {
+    background-color: black;
+    display: flex;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.control-btn>i {
+    margin: 0.5em 0;
+}
+
+.js-video-container {
+    flex-grow: 1;
+}
+
+.expand-btn {
+    margin-left: auto;
+}
