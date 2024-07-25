@@ -14,28 +14,26 @@
     background-color: transparent;
     color: white;
     border: none;
-    font-size: 1.1em;
-    width: 2.5em;
-
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
 }
 
 .player-controls {
     background-color: black;
     display: flex;
+    align-items: center;
 }
 
 button:hover {
     cursor: pointer;
 }
 
-.control-btn>i {
-    margin: 0.5em 0;
-}
-
-.js-video-container {
+.screen {
     flex-grow: 1;
 }
 
-.expand-btn {
-    margin-left: auto;
+.progress-container {
+    flex-grow: 1;
 }
