@@ -101,3 +101,8 @@ button:hover {
     transition-duration: 0.3s;
     transition-timing-function: ease-in, ease-out;
 }
+
+
+.duration-container {
+    margin-left: auto;
+}
