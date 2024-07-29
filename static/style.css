@@ -13,7 +13,7 @@ body {
 .player {
     width: 800px;
     height: 600px;
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
 }
@@ -76,9 +76,7 @@ button:hover {
     transition: left 0.3s ease;
 }
 
-.progress-bar:hover,
-.slider:hover,
-.thumb:hover {
+.progress-bar:hover {
     cursor: pointer;
 }
 
@@ -101,9 +99,4 @@ button:hover {
     transition-property: opacity;
     transition-duration: 0.3s;
     transition-timing-function: ease-in, ease-out;
-}
-
-
-.duration-container {
-    margin-left: auto;
 }

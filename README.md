@@ -2,7 +2,7 @@
 
 ### Выполнено в рамках урока на [dvmn](https://dvmn.org/)
 
-![Screenshot](images/screen.png)
+![Screenshot](static/screen.png)
 
 ### [demo](https://bfc0.github.io/video_player/)
 
