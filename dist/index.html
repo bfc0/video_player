@@ -3,10 +3,12 @@
 
 <head>
 	<title>video player</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-		integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
 	<script src="player.js"></script>
@@ -27,7 +29,18 @@
 				<button class="js-mute-button control-btn"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
 				<button class="js-volume-button control-btn"><i class="fa fa-volume-off"
 						aria-hidden="true"></i></button>
-				<div class="progress-container"></div>
+				<div class="progress-container">
+					<div>
+						<span class="js-current-time timer"></span>
+					</div>
+					<div class="js-progress progress-bar">
+						<div class="js-progress-slider slider"></div>
+						<div class="thumb"></div>
+					</div>
+					<div class="duration-container">
+						<span class="js-duration timer"></span>
+					</div>
+				</div>
 				<button class="js-fullscreen-button control-btn"><i class="fa fa-expand"
 						aria-hidden="true"></i></button>
 			</div>
